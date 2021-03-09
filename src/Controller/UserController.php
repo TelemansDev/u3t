@@ -52,7 +52,7 @@ class UserController {
         $this->view->render('rooms', $listRooms);
     }
 
-    public function createRoom() {
+    public function createRoom(): void {
         if ($this->request->postParam('room-name')) {
             $roomName = $this->request->postParam('room-name');
             $roomPass = $this->request->postParam('room-pass');
@@ -77,7 +77,7 @@ class UserController {
         }
     }
 
-    public function game() {
+    public function game(): void {
         // idGame z URL
         $idGameUrl = (int)$this->request->getParam('id');
         
