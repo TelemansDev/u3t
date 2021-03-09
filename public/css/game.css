@@ -1,0 +1,65 @@
+#game-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    min-width: 660px;
+}
+#game-bar {
+    width: 100%;
+    margin-top: 50px;
+}
+#game-bar span {
+    font-size: 30px;
+    color: white;
+}
+#game-bar span.player-2-info {
+    float: right;
+}
+#board {
+    width: 850px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+.row {
+    width: 100%;
+    margin: 7px 0 7px 0;
+    display: flex;
+    justify-content: center;
+}
+.single-board {
+    width: 33%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.box {
+    width: 80px;
+    height: 80px;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+    text-align: center;
+    background-color: #1e222587;
+    margin: 4px;
+    border-radius: 7px;
+    cursor: pointer;
+}
+.next-box {
+    background-color: #1E2225;
+}
+.times-box-win {
+    background-color: #4268A6;
+}
+.circle-box-win {
+    background-color: #A64242;
+}
+.times-color {
+    color: #669EFB;
+}
+.circle-color {
+    color: #FD5C62;
+}

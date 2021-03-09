@@ -1,0 +1,136 @@
+body {
+    margin: 0 auto;
+    padding: 0;
+    background-color: #2C2F34;
+    height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+}
+#container {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1000px;
+    min-width: 660px;
+    min-height: 100vh;
+}
+#user-name-icon {
+    position: absolute;
+    right: 0;
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    color: white;
+    font-size: 22px;
+}
+#login-box {
+    margin-top: 20px;
+    padding: 17px;
+    width: 425px;
+    height: 250px;
+    background-color: #1E2225;
+    text-align: center;
+}
+.form-style, .confirm-submit {
+    width: 85%;
+    height: 45px;
+    border: 1px solid transparent;
+}
+.form-style {
+    margin: 55px 0 50px 0;
+    font-size: 19px;
+    color: #757575;
+    background-color: #2C2F34;
+    padding: 0 5px 0 5px;
+}
+.confirm-submit {
+    font-size: 18px;
+    color: white;
+    background-color: #1AB188;
+    cursor: pointer;
+}
+#rooms-view {
+    width: 100%;
+    min-height: 80vh;
+    background-color: #1E2225;;
+}
+#header-rooms-view {
+    margin: 0 10px 0 10px;
+    padding: 0 10px 0 10px;
+    color: white;
+    border-bottom: 1px solid;
+}
+#content-rooms-view {
+    display: flex;
+    height: 100%;
+    padding: 10px;
+    color: white;
+}
+#list-rooms {
+    width: 80%;
+    height: 100%;
+    max-height: 80vh;
+    overflow: auto;
+}
+#actions-rooms {
+    width: 20%;
+    padding-top: 10px;
+    justify-content: center;
+    text-align: center;
+}
+.operation-button {
+    padding: 10px;
+    font-size: 18px;
+    color: white;
+    background-color: teal;
+    border: 1px solid transparent;
+    cursor: pointer;
+}
+.join-button {
+    padding: 5px;
+    font-size: 16px;
+    color: white;
+    background-color: #1AB188;
+    border: 1px solid transparent;
+    cursor: pointer;
+}
+#rooms-table {
+    width: 100%;
+    color: white;
+    border-collapse: collapse;
+    text-align: center;
+}
+#rooms-table td {
+    padding: 7px;
+}
+.rooms-td-name {
+    width: 350px;
+    text-align: left;
+}
+#dialog-form {
+    padding-top: 30px;
+    text-align: center;
+    display: none;
+}
+#dialog-form .confirm-submit {
+    margin-top: 15px;;
+}
+.create-room-input {
+    margin: 10px;
+    padding: 10px;
+    width: 80%;
+}
+#leave-game-input {
+    padding: 7px;
+    background-color: #ff0000d4;
+    color: white;
+    font-size: 15px;
+    border: 1px solid transparent;
+    cursor: pointer;
+}
+.fa-user-circle {
+    margin: 0 5px 0 20px;
+}
+.span-error {
+    color: red;
+}
